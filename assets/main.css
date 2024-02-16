@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(254, 207, 215);
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    flex:1 1 250px;
+    gap: 50px;
+    padding: 50px;
+}
+button{
+    color: #fff;
+    background-color: rgb(71, 35, 104);
+}
+p{
+    background-color: #fff;
+}
+.left{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lft{
+    padding: 50px;
+    border: 1px solid rebeccapurple;
+    border-radius: 4px;
+    background-color: rgb(160, 112, 208);
+    text-align: center;
+}
+.rgt{
+    padding: 50px;
+    border: 1px solid rebeccapurple;
+    border-radius: 4px;
+    background-color: rgb(160, 112, 208);
+    text-align: center;
+}
+.right{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
